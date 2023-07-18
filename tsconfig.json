@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "CommonJS",
+
+    "moduleResolution": "node", 
+    "types": ["node", "jest", "@types/jest"],
+    "paths": {},
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "build",
+
+
+    "strict": true,
+    "noImplicitAny": true,
+
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "__tests__"],
+
+
+}
